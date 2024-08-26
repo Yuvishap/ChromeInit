@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Open Init Bookmarks",
+  "version": "1.0",
+  "description": "Opens all bookmarks in the 'Init' folder on browser startup.",
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "script.js"
+  }
+}
